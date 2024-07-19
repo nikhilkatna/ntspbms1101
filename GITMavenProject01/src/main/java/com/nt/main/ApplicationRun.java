@@ -1,10 +1,13 @@
 package com.nt.main;
 
-public class ApplicationRun {
+import com.nt.service.Arithmetic;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class ApplicationRun 
+{
+	public static void main(String[] args)
+	{	
+      Arithmetic ar=new Arithmetic();
+      System.out.println("Sum is :"+ar.sum(10,20));
 	}
 
 }
