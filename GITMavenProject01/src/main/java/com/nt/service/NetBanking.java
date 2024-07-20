@@ -4,6 +4,6 @@ public class NetBanking
 {
    public String netBanking()
    {
-	   return "";
+	   return "Net Banking Added";
    }
 }
