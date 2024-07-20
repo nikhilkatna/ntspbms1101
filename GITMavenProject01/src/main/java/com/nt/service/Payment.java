@@ -11,4 +11,9 @@ public class Payment
    {
 	   return "UPI Payment is done";
    }
+   
+   public String PayPallIntegration(String url)
+   {
+	   return "PayPallIntegration is done";
+   }
 }
