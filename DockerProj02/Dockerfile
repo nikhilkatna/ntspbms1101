@@ -1,5 +1,5 @@
-FROM maven:3.8.2-jdk-17
+FROM openjdk
 WORKDIR /app1
-COPY target/*.jar/ app1
-RUN mvn clean package
-CMD ["java","-jar","app1"]
+COPY . / app1
+RUN javac -DockerProj02.java
+CMD ["java","app1"]
