@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>nit</groupId>
-	<artifactId>DockerProj02</artifactId>
+	<artifactId>DockerProj05</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DockerProj02</name>
+	<name>DockerProj05</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

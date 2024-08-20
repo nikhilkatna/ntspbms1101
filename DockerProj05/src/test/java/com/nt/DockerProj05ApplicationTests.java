@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DockerProj02ApplicationTests {
+class DockerProj05ApplicationTests {
 
 	@Test
 	void contextLoads() {
