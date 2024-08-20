@@ -1,5 +1,4 @@
 FROM openjdk
-WORKDIR / app1
-COPY . /app1
-RUN javac ClassA.java
-CMD ["java","ClassA"]
+WORKDIR /app1
+COPY target/*.jar /app1
+CMD ["java","-jar","BootApp1.jar"]
